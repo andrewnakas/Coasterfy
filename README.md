@@ -6,10 +6,12 @@ This uses Project Tango motion tracking, C# hermite spline colliders and some si
 to hook up and procedually generate a rollercoaster based on motion.
 
 
- Ideally this would automaticly scale with the size of motion being drawn
- One would be able to easily draw and design a rollercoaster in a room or bring the tango device to a rollercoaster and map that by riding in the front seat
+ Ideally this would automaticly scale with the size of motion being drawn.
+ 
+ One would be able to easily draw and design a rollercoaster in a room or bring the tango device to a rollercoaster and map that by riding in the front seat.
+ 
  It would be sweet if there was a platform to easily map, export and upload the worlds rollercoasters to a database that would allow people to ride every rollercoaster....
- Also another simple place for this to go would be able to load adf files and build a coaster from that.
+
  
  
  Some known issues
