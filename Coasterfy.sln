@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{D5D27E84-0B59-9396-4E50-8944B889F640}") = "Coasterfy", "Assembly-CSharp.csproj", "{EBC8F738-F58B-2BCA-9C79-F8669C91EED7}"
+EndProject
+Project("{D5D27E84-0B59-9396-4E50-8944B889F640}") = "Coasterfy", "Assembly-CSharp-Editor.csproj", "{8574340D-3D7F-E448-9D44-9800E00382E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC8F738-F58B-2BCA-9C79-F8669C91EED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC8F738-F58B-2BCA-9C79-F8669C91EED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC8F738-F58B-2BCA-9C79-F8669C91EED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC8F738-F58B-2BCA-9C79-F8669C91EED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8574340D-3D7F-E448-9D44-9800E00382E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8574340D-3D7F-E448-9D44-9800E00382E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8574340D-3D7F-E448-9D44-9800E00382E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8574340D-3D7F-E448-9D44-9800E00382E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
