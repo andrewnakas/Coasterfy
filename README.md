@@ -11,9 +11,15 @@ It would be sweet if there was a platform to easily map, export and upload the w
 Known issues:
 
 Freezes when trying to resume - go back to building
+
+
 Google Cardboard SDK is not working during the ride
+
 Occasional spline root glitches
+
 Limited spline root count
+
+
 Where this will go in the short term:
 
 Spline scaling
