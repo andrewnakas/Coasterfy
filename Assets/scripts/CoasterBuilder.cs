@@ -18,6 +18,8 @@ public class CoasterBuilder : MonoBehaviour {
 	public GameObject cart;
 	public GameObject splineroot;
 	public Transform splinepoint;
+	public Vector3 lookPos;
+	public static Vector3 lastpoint;
 	Vector3 coasterstart;
 	public float traveldistance; 
 	public int rideswitchint;
@@ -32,7 +34,7 @@ public class CoasterBuilder : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	
+		Debug.Log (lookPos);
 		if (  building == true){
 
 			buildtimer+=Time.deltaTime;
@@ -53,10 +55,10 @@ public class CoasterBuilder : MonoBehaviour {
 		}
 		traveldistance = ( Mathf.Abs(coasterstart.y) + Mathf.Abs(coasterstart.x ) + Mathf.Abs(coasterstart.z)) -( Mathf.Abs(transform.position.z) + Mathf.Abs(transform.position.y ) + Mathf.Abs(transform.position.x));
 
-
+		lookPos =  transform.position-lastpoint ;
 		if ( Mathf.Abs(traveldistance) > 1 && building == true){
 
-			Instantiate(tracker,transform.position, transform.rotation) ;
+			Instantiate(tracker,transform.position,Quaternion.LookRotation(lookPos)) ;
 
 			trackbuild = true; 
 
@@ -69,10 +71,10 @@ public class CoasterBuilder : MonoBehaviour {
 		splinetimer+=Time.deltaTime;
 
 		if (splinetimer > 1f && building == true){
+			//Quaternion.LookRotation
 
-
-			Instantiate(splinepoint,transform.position, transform.rotation);
-
+			Instantiate(splinepoint,transform.position, Quaternion.LookRotation(lookPos));
+			//lastpoint = 
 			splinetimer= 0;
 
 		}

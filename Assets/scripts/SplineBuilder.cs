@@ -9,7 +9,7 @@ public class SplineBuilder : MonoBehaviour {
 
 
 		transform.parent = GameObject.Find("SplineRoot").transform;
-
+		CoasterBuilder.lastpoint =transform.position;
 
 		splinenumber=splinenumber + 0.0001f;
 	}

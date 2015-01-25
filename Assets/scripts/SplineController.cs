@@ -10,10 +10,12 @@ public class SplineController : MonoBehaviour
 {
 	public GameObject SplineRoot;
 	public float Duration = 5;
+	public int coasterspeed=1;
 	public eOrientationMode OrientationMode = eOrientationMode.NODE;
 	public eWrapMode WrapMode = eWrapMode.ONCE;
 	public bool AutoStart = true;
 	public bool AutoClose = true;
+
 	public bool HideOnExecute = true;
 
 
@@ -46,7 +48,7 @@ public class SplineController : MonoBehaviour
 
 	void Start()
 	{
-		Duration = CoasterBuilder.buildtimer;
+		Duration = CoasterBuilder.buildtimer / coasterspeed;;
 		mSplineInterp = GetComponent(typeof(SplineInterpolator)) as SplineInterpolator;
 
 		mTransforms = GetTransforms();
@@ -57,6 +59,47 @@ public class SplineController : MonoBehaviour
 		if (AutoStart)
 			FollowSpline();
 	}
+	void Update(){
+
+
+		Duration = CoasterBuilder.buildtimer / coasterspeed;
+
+
+	}
+	public void speed1(){
+
+		coasterspeed = 1;
+		FollowSpline();
+
+	}
+	public 	void speed2(){
+		
+		coasterspeed = 2;
+		FollowSpline();
+		
+	}
+	public void speed3(){
+		
+		coasterspeed = 3;
+		FollowSpline();
+		
+	}
+	public void speed5(){
+		
+		coasterspeed = 5;
+		FollowSpline();
+	}
+
+	public 	void speed10(){
+		
+		coasterspeed = 10;
+		FollowSpline();
+		
+	}
+
+	
+
+
 
 	void SetupSplineInterpolator(SplineInterpolator interp, Transform[] trans)
 	{
@@ -120,7 +163,7 @@ public class SplineController : MonoBehaviour
 	{
 		if (SplineRoot != null)
 		{
-			SplineRoot.SetActiveRecursively(false);
+			//SplineRoot.SetActiveRecursively(false);
 		}
 	}
 
