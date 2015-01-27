@@ -34,7 +34,7 @@ public class CoasterBuilder : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log (lookPos);
+		//Debug.Log (traveldistance);
 		if (  building == true){
 
 			buildtimer+=Time.deltaTime;
@@ -53,13 +53,16 @@ public class CoasterBuilder : MonoBehaviour {
 
 
 		}
-		traveldistance = ( Mathf.Abs(coasterstart.y) + Mathf.Abs(coasterstart.x ) + Mathf.Abs(coasterstart.z)) -( Mathf.Abs(transform.position.z) + Mathf.Abs(transform.position.y ) + Mathf.Abs(transform.position.x));
 
-		lookPos =  transform.position-lastpoint ;
-		if ( Mathf.Abs(traveldistance) > 1 && building == true){
+		traveldistance  += Vector3.Distance(transform.position, lastpoint); 
+		lookPos = transform.position -lastpoint; 
+		lastpoint =transform.position;
+
+
+		if (traveldistance > 1f  && building == true){
 
 			Instantiate(tracker,transform.position,Quaternion.LookRotation(lookPos)) ;
-
+			traveldistance = 0;
 			trackbuild = true; 
 
 		}
