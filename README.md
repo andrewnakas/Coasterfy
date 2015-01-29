@@ -10,7 +10,7 @@ This project is going to work towards allowing the tango devices to map the worl
 
 Known issues:
 
-
+The rotations set by the splines are now not displaying correctly, this has to do with the quarternionlook that was added to build the track the right way. 
 
 
 Google Cardboard SDK is not working during the ride
