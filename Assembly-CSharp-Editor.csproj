@@ -46,12 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\Editor\CardboardEditor.cs" />
-     <Compile Include="Assets\Cardboard\Editor\StereoControllerEditor.cs" />
      <Compile Include="Assets\Editor\GlobalDefinesWindow.cs" />
-     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Unity Tools\Global Defines\Sync Data\defines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>

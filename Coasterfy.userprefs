@@ -2,15 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/CoasterBuilder.cs">
     <Files>
-      <File FileName="Assets/scripts/CoasterBuilder.cs" Line="59" Column="51" />
-      <File FileName="../rollercoaster 2 2/Assets/Canvas1 copy.cs" Line="1" Column="1" />
-      <File FileName="Assets/TangoSDK/Core/Scripts/TangoWrappers/TangoApplication.cs" Line="1" Column="1" />
-      <File FileName="Assets/Unity Tools/Debug Logging/DebugLogger.cs" Line="1" Column="1" />
-      <File FileName="Assets/TangoSDK/Examples/Scripts/Controllers/SampleController.cs" Line="1" Column="1" />
-      <File FileName="../Permissiontest/Assets/TangoSDK/Examples/Scripts/Controllers/SampleController.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/SplineController.cs" Line="96" Column="18" />
-      <File FileName="Assets/scripts/SplineBuilder.cs" Line="17" Column="18" />
-      <File FileName="Assets/Plugins/Android/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="../tangopointcloudcamera/Assets/TangoSDK/Examples/Scripts/Shaders/PointCloud.shader" Line="25" Column="10" />
+      <File FileName="Assets/scripts/CoasterBuilder.cs" Line="77" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

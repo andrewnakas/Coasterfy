@@ -46,16 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cardboard\DemoScene\Teleport.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUI.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUIMouse.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardGUIWindow.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\SkyboxMesh.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
-     <Compile Include="Assets\Cardboard\Scripts\StereoLensFlare.cs" />
      <Compile Include="Assets\TangoSDK\Core\Scripts\Common\AndroidHelper.cs" />
      <Compile Include="Assets\TangoSDK\Core\Scripts\Common\Common.cs" />
      <Compile Include="Assets\TangoSDK\Core\Scripts\Common\OrientationManager.cs" />
@@ -113,9 +103,8 @@
      <Compile Include="Assets\scripts\SplineBuilder.cs" />
      <Compile Include="Assets\scripts\SplineController.cs" />
      <Compile Include="Assets\scripts\SplineInterpolator.cs" />
-     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
-     <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Unity Tools\Global Defines\Sync Data\defines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>

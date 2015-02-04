@@ -76,7 +76,7 @@ public class CoasterBuilder : MonoBehaviour {
 		if (splinetimer > 1f && building == true){
 			//Quaternion.LookRotation
 
-			Instantiate(splinepoint,transform.position, Quaternion.LookRotation(lookPos));
+			Instantiate(splinepoint,transform.position,transform.rotation);
 			//lastpoint = 
 			splinetimer= 0;
 
